@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div { /*div bao quat ben ngoai*/
+    width: 700px;
+    height: 500px;
+    border: 1px solid #eee;
+    background-color:#f2f3f5 ;
+    box-shadow: 1px 1px 10px #ddd;
+    margin: 50px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#first_name, #last_name, #email, #phone, [list="browsers1"], [list="browsers2"] {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 280px;
+}
+#first_name {
+    margin: 30px 30px 10px 30px;
+}
+#email, [list="browsers1"] {
+    margin: 20px 30px 10px 30px;
+}
+textarea {
+    width: 600px;
+    margin: 20px 30px 10px 30px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+[type="submit"] {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    width: 600px;
+    margin: 10px 30px 10px 30px;
+}
+

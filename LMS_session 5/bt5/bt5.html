@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Form</Form></title>
+    <link rel="stylesheet" href="./bt5_style.css">
+</head>
+<body>
+    <div>
+        <form action="#" method="get">
+            <input type="text" name="first_name" id="first_name" placeholder="First Name">
+            <input type="text" name="last_name" id="last_name" placeholder="Last Name"><br>
+            <input type="email" name="email" id="email" placeholder="Your Email">
+            <input type="tel" name="phone" id="phone" placeholder="Your phone"><br>
+            <input list="browsers1" name="browsers1" placeholder="Select Country">
+            <datalist id="browsers1">
+                <option value="VN">Vietnam</option>
+                <option value="Japan">Japan</option>
+                <option value="Korea">Korea</option>
+                <option value="China">China</option>
+            </datalist>
+            <input list="browsers2" name="browsers2" placeholder="Select Course">
+            <datalist id="browsers2">
+                <option value="Course 1">Course 1</option>
+                <option value="Course 2">Course 2</option>
+                <option value="Course 3">Course 3</option>
+            </datalist><br>
+            <textarea name="content" id="content" cols="30" rows="7" placeholder="Content"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

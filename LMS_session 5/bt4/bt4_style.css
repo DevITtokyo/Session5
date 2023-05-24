@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container { /*div bao quat ben ngoai*/
+    width: 900px;
+    height: 600px;
+    border: 1px solid #eee;
+    background-color: #f2f3f5;
+    box-shadow: 1px 1px 10px #ddd;
+    margin: 50px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#div2 {
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+h4 {
+    font-size: 25px;
+    padding: 10px;
+}
+p {
+    font-size: 16px;
+    color: gray;
+    font-weight: lighter;
+}
+#div3 {
+    display: inline-flex;
+    width: 900px;
+    height: 600px;
+}
+img {
+    display: inline-block;
+    width: 260px;
+    height: 210px;
+    border: 1px solid BLACK;
+}
+span {
+    width: 260px;
+    height: 200px;
+    font-size: 12px;
+    padding: 10px;
+    display: flex;
+    line-height: 1.5;
+}
+#small1, #small2, #small3 {
+    width: 265px;
+    height: 330px;
+    font-size: 16px;
+}
+#img2 {
+    margin: 20px 30px 0 30px ;
+    padding: 0;
+
+}
+#img1{
+    margin: 20px 30px 0 10px ;
+    background-color: white;
+}
+#img3 {
+    margin: 20px 0px 0 50px ;
+    padding: 0;
+}
+#h6_1 {
+    margin: 0px 30px 0 10px ;
+    color: black;
+    font-weight: bold;
+    padding: 10px 0;
+}
+#h6_2 {
+    margin: 0px 20px 0 10px ;
+    color: black;
+    font-weight: bold;
+    padding: 10px 0;
+}
+#h6_3 {
+    margin: 0px 50px 0 10px ;
+    color: black;
+    font-weight: bold;
+    padding: 10px 0;
+}
+#a {
+    margin: 0px 20px 20px 10px;
+    background-color: white;
+    width: 260px;
+    height: 200px;
+}
+#b {
+    margin: 0px 10px 20px 30px;
+    background-color: white;
+    width: 260px;
+    height: 200px;
+}
+#c {
+    margin: 0px 10px 60px 50px;
+    background-color: white;
+    width: 260px;
+    height: 200px;
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div { /*div bao quat ben ngoai*/
+    width: 700px;
+    height: 500px;
+    border: 1px solid #eee;
+    box-shadow: 1px 1px 10px #ddd;
+    margin: 50px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    padding: 10px;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 20px;
+}
+#name , [type=email] {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 270px;
+}
+[type="text"] {
+    margin: 10px 30px 10px 30px;
+}
+#subject {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 600px;
+}
+#message {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 600px;
+    margin: 10px auto auto 30px;
+}
+[type=submit] {
+    color: white;
+    background-color: #7CCFEB;
+    border: none;
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin: 10px 30px;
+}
+span {
+    color: #aaa;
+    margin-left: 100px;
+    font-size: 15px;
+}

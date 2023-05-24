@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container { /*div bao quat ben ngoai*/
+    width: 1100px;
+    height: 420px;
+    background-color: black;
+    color: white;
+    border: 1px solid #eee;
+    box-shadow: 1px 1px 10px #ddd;
+    margin: 50px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#left {
+    width: 350px;
+    height: 400px;
+    float: left;
+    flex-direction: column;
+    margin: 50px 20px;
+}
+#right {
+    display: inline-flex;
+    clear: right;
+    width: 700px;
+    height: 400px;
+}
+#left > span {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #8696cb;
+    margin-bottom: 30px;
+    color: white;
+}
+#left > p {
+    font-size: 18px;
+    line-height: 2;
+    color: gray;
+}
+table {
+    margin: 50px 20px 50px 30px ;
+    width: 680px;
+}
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+}
+thead {
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+th:nth-child(1) {
+    padding-right: 50px;
+}
+th:nth-child(2) {
+    padding-left: 20px;
+}
+th:nth-child(3) {
+    padding-left: 0px;
+}
+.td2 {
+    padding-top: 0px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: gray;
+}
+.td3 {
+    padding-top: 0px;
+    padding-left: 0px;
+    font-size: 14px;
+    color: gray;
+}

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container { /*div bao quat ben ngoai*/
+    width: 950px;
+    height: 500px;
+    border: 1px solid #eee;
+    box-shadow: 1px 1px 10px #ddd;
+    margin: 50px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    text-align: center;
+    padding: 10px;
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#left {
+    display: inline-block;
+    width: 300px;
+    height: 330px;
+    border: 1px solid #eee;
+    box-shadow: 1px 1px 10px #ddd;
+    float: left;
+    margin: 10px 20px 20px 40px;
+    
+}
+h6 {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 20px;
+}
+#p1 {
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 10px;
+    margin: 0px 20px 20px 20px;
+}
+b {
+    font-size: 16px;
+    padding: 10px;
+    margin: 0px 20px;
+}
+#p2 {
+    color: blue;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0px 20px;
+}
+#right {
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    float: right;
+    margin: 10px 40px 20px 20px;
+}
+.p3 {
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 0px;
+    margin: 0px 20px 0px 20px;
+}
+#p4 {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0 20px 0 20px;
+}
